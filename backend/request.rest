@@ -1,0 +1,32 @@
+POST http://localhost:3000/api/services 
+content-type: application/json
+
+{
+    "title": "Algum titulo",
+    "description": "Alguma descrição",
+    "content": "conteudo"
+}
+
+###
+
+GET http://localhost:3000/api/services
+
+
+###
+
+GET http://localhost:3000/api/services/
+
+###
+
+DELETE http://localhost:3000/api/services/6598ca78167b4903d04c7eb4
+
+###
+
+PUT http://localhost:3000/api/services/6598cbad5f12cd790e3d1cd2 
+content-type: application/json
+
+{
+    "title": "TESTE ATUALIZANDO",
+    "description": "Alguma descrição",
+    "content": "conteudo"
+}
